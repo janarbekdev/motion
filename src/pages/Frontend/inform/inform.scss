@@ -1,0 +1,153 @@
+#inform {
+
+
+  .inform{
+    display: flex;
+    align-items: flex-start;
+    grid-column-gap: 92px;
+    //margin-top: 300px;
+    &--question {
+
+      h3 {
+        font-size: 36px;
+        color: black;
+        margin-top: 0;
+        width: 379px;
+      }
+
+      span {
+        font-size: 36px;
+        color: #EC3025;
+      }
+    }
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        margin: 15px 0;
+        color: rgba(27, 27, 27, 0.8);
+        width: 617px;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 25px;
+        color: rgba(27, 27, 27, 0.8);
+        width: 662px;
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #inform .inform {
+    grid-column-gap: 15px;
+  }
+}
+@media (max-width: 1140px) {
+  #inform .inform--text h4 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: rgba(27, 27, 27, 0.8);
+    width: 598px;
+    margin: 0;
+  }
+}
+@media (max-width: 1040px) {
+
+  #inform .inform--text p {
+    width: 580px;
+  }
+  #inform .inform--text h4 {
+    width: 589px;
+  }
+}
+@media (max-width: 992px) {
+  #inform .inform--question h3 {
+    width: 335px;
+  }
+  #inform .inform--text p {
+    width: 448px;
+  }
+  #inform .inform--text h4 {
+    width: 483px;
+  }
+}
+@media (max-width: 768px) {
+  #inform .inform {
+    flex-direction: column;
+  }
+  #inform .inform--question h3 {
+    width: 379px;
+  }
+  #inform .inform--text p {
+    width: 617px;
+  }
+  #inform .inform--text h4 {
+     width: 617px;
+   }
+}
+@media (max-width: 576px) {
+  #inform .inform--text p {
+    width: 470px;
+    line-height: 23px;
+  }
+  #inform .inform--text h4 {
+    width: 509px;
+    font-size: 17px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 451px) {
+  #inform .inform--text p {
+    width: 399px;
+    line-height: 21px;
+    font-size: 16px;
+  }
+  #inform .inform--text h4 {
+    width: 397px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 400px) {
+
+  #inform  {
+    .inform--text{
+      p{
+        width: 366px;
+        line-height: 20px;
+      }
+      h4{
+        width: 352px;
+        line-height: 20px;
+      }
+    }
+
+  }
+}
+@media (max-width: 320px) {
+  #inform .inform--text p {
+    width: 287px;
+  }
+
+  #inform .inform--question span {
+    font-size: 29px;
+  }
+  #inform .inform--text h4 {
+    width: 255px;
+  }
+  #inform .inform--question h3 {
+    font-size: 29px;
+  }
+}
+
